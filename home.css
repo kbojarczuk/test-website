@@ -15,7 +15,7 @@
 }
 .hover{
     width: 170px;
-    height: 200px;
+    height: 180px;
     padding-top: 100px
     margin: 100px 200px 100px 50px;
     border-radius: 50%;
@@ -33,14 +33,14 @@
 }
 .lala{
 
-    margin: 100px 200px 100px 50px;
+    margin: 10px 20px 10px 50px;
 
  
  }
 
 .lala3{
-  margin: 100px 200px 100px 50px;
-  padding-left: 500px;
+  margin: 10px 20px 10px 5px;
+  padding-left: 300px;
 }
 #about .textt{
 position:relative;

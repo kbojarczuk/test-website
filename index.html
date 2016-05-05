@@ -1,12 +1,12 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
 <head>
-	<title> MY JOURNEYS </title>
-	<link rel="stylesheet" type/css href="bootstrap.css">
-	<link rel="stylesheet" type/css href="index.css">
-	<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-	<script src = "jquery.js" ></script>
+  <title> MY JOURNEYS </title>
+  <link rel="stylesheet" type/css href="bootstrap.css">
+  <link rel="stylesheet" type/css href="index.css">
+    <link rel="stylesheet" type/css href="home.css">
+  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  <script src = "jquery.js" ></script>
 
 
 </head>
@@ -17,8 +17,8 @@
 
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><div class="navbar-header"><a class="navbar-brand" href="home.html">KINGA'S WEBSITE</a></div></li>
-        <li class="active"><a href="">BLOG</a></li>
+        <li class="active"><div class="navbar-header"><a class="navbar-brand" href="">KINGA'S WEBSITE</a></div></li>
+        <li><a href="home.html">BLOG</a></li>
         <li><a href="index2.html">SUBSCRIBE</a></li>
         <li><a href="index3.html">GALLERY</a></li>
       </ul>
@@ -47,54 +47,124 @@
   </div>
 </nav>
 
- 
- <h1>MY JOURNEYS</h1>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
 
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-<div class="post-container">                
-    <div class="post-thumb"><img class="spain" img src="spain.jpg" class="img-rounded"></div>
-    <div class="post-content">
-        <h3 class="post-title">BARCELONA</h3>
-        <p>"We crossed spacious streets, with building resembling   palaces, <br>in La Rambla promenade ; <br>the shops were well illuminated and there was movement and life...<br> I did not decide to go to sleep, even though I wished to, so I could rise early and contemplate, in daylight, this city, unknown to me:<br> Barcelona, capital of Catalonia"
- 	 <br><br>- HANS CHRISTIAN ANDERSEN </p> </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
+      <div class="item active">
+        <img src="k4.jpg" alt="Chania" width="1000" height="350">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="k2.jpg" alt="Chania" width="1000" height="350">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="k1.jpg" alt="Flower" width="1000" height="350">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="k3.jpg" alt="Flower" width="1000" height="350">
+        <div class="carousel-caption">
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
+<div class="about">
 
-<div class="post-container">                
-    <div class="post-thumb"><img class="spain" img src="london.jpg" class="img-rounded"></div>
-    <div class="post-content">
-        <h3 class="post-title">LONDON</h3>
-            <p>"We crossed spacious streets, with building resembling   palaces, <br>in La Rambla promenade ; <br>the shops were well illuminated and there was movement and life...<br> I did not decide to go to sleep, even though I wished to, so I could rise early and contemplate, in daylight, this city, unknown to me:<br> Barcelona, capital of Catalonia"
- 	 <br><br>- HANS CHRISTIAN ANDERSEN </p> </div>
+<h3 class="post-title2">ABOUT ME</h3>
 
-</div>
+<div class="lala">
 
+<span style="display:inline-block; vertical-align:middle"><p><div class="lala3"></p></span>
 
+  <div id="wrapper"><span style="display:inline-block; vertical-align:middle">
+    <img src="prof.jpg" class="hover" />
+    <p class="text">HELLO!</p></span>
 
-<div class="post-container">                
-    <div class="post-thumb"><img class="spain" img src="rome.jpg" class="img-rounded"></div>
-    <div class="post-content">
-        <h3 class="post-title">ROME</h3>
-            <p>"We crossed spacious streets, with building resembling   palaces, <br>in La Rambla promenade ; <br>the shops were well illuminated and there was movement and life...<br> I did not decide to go to sleep, even though I wished to, so I could rise early and contemplate, in daylight, this city, unknown to me:<br> Barcelona, capital of Catalonia"
- 	 <br><br>- HANS CHRISTIAN ANDERSEN </p> </div>
+    <span style="display:inline-block; vertical-align:middle"><p><div class="lala3">Hey! My name is Kinga and this is my blog.</p></span>
 
-</div>
+  <span style="display:inline-block; vertical-align:middle"><address><div class="lala">
+  <strong>Twitter, Inc.</strong><br>
+  1355 Market Street, Suite 900<br>
+  San Francisco, CA 94103<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
 
-
-
-<div class="post-container">                
-    <div class="post-thumb"><img class="spain" img src="chopok.jpg" class="img-rounded"></div>
-    <div class="post-content">
-        <h3 class="post-title">CHOPOK(SLOVAKIA)</h3>
-            <p>"We crossed spacious streets, with building resembling   palaces, <br>in La Rambla promenade ; <br>the shops were well illuminated and there was movement and life...<br> I did not decide to go to sleep, even though I wished to, so I could rise early and contemplate, in daylight, this city, unknown to me:<br> Barcelona, capital of Catalonia"
- 	 <br><br>- HANS CHRISTIAN ANDERSEN </p> </div>
-
-</div>
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address></span>
 
 
-<h2>MORE TO COME!</h2>
+</div></div></div>
+</div>​
 
+
+
+  
+
+
+<div class = "map">
+  <div id="map" style="width:1260px;height:300px">
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+var mapCanvas = document.getElementById("map");
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+}
+var map = new google.maps.Map(mapCanvas, mapOptions);
+</script>
+  </div>
 
 </body>
 </html>
+
+
+
+
